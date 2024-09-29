@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# 🎬 넷플릭스 클론
+이 프로젝트는 넷플릭스 홈페이지를 클론 코딩한 것이다. The Movie DB API를 사용해서 영화 정보를 가져오고, React를 사용해서 구현했다.
+<img width="936" alt="스크린샷 2024-09-29 오후 9 16 37" src="https://github.com/user-attachments/assets/6a072062-dec8-41a0-b29c-f96009d54c4c">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💡 주요 기능
+### 🔍 검색
+<img width="1187" alt="스크린샷 2024-09-29 오후 9 18 55" src="https://github.com/user-attachments/assets/037d344d-8022-4683-8fb1-c69e8a9fc3a3">
 
-## Available Scripts
+- 상단 검색 창에 검색어를 입력하면 영화를 검색할 수 있다.
+- 검색 결과 중 특정 영화를 누르면 해당 영화의 사진이 나온다.
 
-In the project directory, you can run:
+### 🎞️ 상세 정보
+<img width="1187" alt="스크린샷 2024-09-29 오후 9 18 37" src="https://github.com/user-attachments/assets/357f1679-61c6-41c3-8dda-6cdbdf5ad06f">
 
-### `npm start`
+- 각 영화 포스터를 클릭하면 상세 정보 모달창이 뜨며, 개봉 날짜, 평점, 줄거리 등의 정보를 확인할 수 있다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ▶️ 예고편
+![예고편-화질낮춤](https://github.com/user-attachments/assets/9704b8f1-e338-4ba3-93b1-c74eb5f78603)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+_(GIF 용량을 줄이기 위해 FPS가 낮게 설정되어 화면 전환이 매끄럽지 않다.)_
 
-### `npm test`
+- Play 버튼을 누르면 해당 영화와 관련된 유튜브 영상을 볼 수 있다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📽️ 장르별 영화 목록
+![영화목록](https://github.com/user-attachments/assets/98506f61-398e-4b29-a88f-cb41b7136630)
 
-### `npm run build`
+- 넷플릭스 오리지널, Trending Now, Top Rated, 액션 영화, 로맨스 영화, 코미디 영화, 다큐멘터리 등 장르별로 영화 목록을 볼 수 있다.
+- 화살표를 클릭하거나 터치로 슬라이드할 수 있다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📝 푸터
+<img width="707" alt="스크린샷 2024-09-29 오후 9 19 16" src="https://github.com/user-attachments/assets/a70532b2-7dd2-4837-b4e2-8df6219410d3">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 넷플릭스 관련 사이트 링크들을 포함한 푸터가 있다.
+- 항목들을 클릭하면 해당 사이트로 넘어간다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🛠️ 기술 스택
+- ⚛️ React: 컴포넌트 기반 UI 구현
+- 🎥 TMDb API: 영화 및 TV 프로그램 정보 제공
